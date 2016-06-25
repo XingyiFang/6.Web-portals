@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="icon" href="earthcube.ico">
+    <title>NSF EarthCube DAsHER</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="http://dasher.cloud.gmu.edu/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="http://dasher.cloud.gmu.edu/css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+		p {
+			text-indent: 40px;
+		}
+		#toTop{
+			position: fixed;
+			bottom: 95px;
+			right: 40px;
+			cursor: pointer;
+			display: none;
+		}
+		#toTop .fa {margin-right: 5px;}
+		ol{list-style-type: circle;}
+	</style>
+
+</head>
+
+<body>
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('http://dasher.cloud.gmu.edu/img/banner.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 ">
+                    <div class="post-heading">
+                        <h1>NSF EarthCube DAsHER CA: </h1>
+                        <h2 class="subheading">Developing a Data-Oriented Human-Centric Enterprise Architecture for EarthCube</h2>
+                        <!--<span class="meta">Posted by <a href="#"></a> on August 24, 2014</span>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+	
+	<!-- Content -->
+		<!-- Page Content -->
+    <div class="container">
+        <div class="row" style="position:relative">
+			<!--Docs nav -->
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bs-docs-sidebar floatdiv" style="top:0px">
+				<ul class="nav nav-list bs-docs-sidenav">
+					<li><a href="#Overview"><i class="icon-chevron-right"></i> Overview</a></li>
+					<li><a href="#volumes"><i class="icon-chevron-right"></i> Four Volumes of DAsHER Conceptual Design</a></li>
+					<li><a href="#wiki"><i class="icon-chevron-right"></i> DAsHER Wiki</a></li>
+					<li><a href="#team"><i class="icon-chevron-right"></i> Development Team</a></li>
+					<li><a href="#attendees"><i class="icon-chevron-right"></i> Workshop attendees</a></li>
+					<li><a href="#others"><i class="icon-chevron-right"></i> Others</a></li>
+				</ul>
+			</div>
+		  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 pull-right">
+			<section id="Overview">
+				<div class="page-header">
+					<h1>Overview</h1>
+				</div>
+				<p>Vast geoscience resources (e.g., data, tools, facilities, experts) have been accumulated in the past decades through support from NSF and other agencies. However, it is still a challenge for geoscientists to discover, select, and access resources to accelerate their research. EarthCube is the NSF's strategic effort (NSF, 2011) to address the challenge by building a cyberinfrastructure (CI) to enable the integration, communication, and collaboration among geoscientists from different domains including the solid Earth, atmosphere, oceans, poles, and computational sciences. Three Conceptual Design (CD) projects were selected to investigate frameworks for how an EarthCube system might function and be integrated. This is the DAsHER project (dasher.cloud.gmu.edu). With a three-year development, the EarthCube DAsHER Conceptual Architecture (CA) was designed to support EarthCube to facilitate communication and collaboration in pursuit of collaboration within the geosciences.</p>
+				<p>This EarthCube CA is developed by leveraging several popular frameworks (i.e., Zachman, Gartner, TOGAF, FEAF, and DoDAF) that have been demonstrated to be efficient in practice for several geoscience projects within the NSF's Spatiotemporal Innovation Center. The EarthCube CA comprises three major components: 1) overview of current geoscience resources and architectures; 2) capabilities of the envisioned EarthCube; and 3) alignment of the proposed CA with the geoscience's community.</p>
+				<p>This project CA design follows a spiral developments approach (Figure 1) : 1) spiral one analyzed geoscientist workshop reports, and roadmaps for EarthCube architecture requirements ;2) spiral two designed the overall architecture and overview; 3) spiral three designed the detailed conceptual architecture and solicited community feedback; 4) spiral four completed a draft conceptual architecture with community feedback addressed and integrated.</p>
+<img style="height:450px" src="img/f1.png" alt="">		
+<p>Figure 1. Spiral developments approach</p>
+<p>The final design is a four-volume report with different views of the EarthCube conceptual architecture from multiple perspectives (Figure 2). Volume one is an overview of EarthCube and architecture requirements for the initial development. Volume two is the presentation of the architectural design components and viewpoints. Volume three is the dictionary that presents the taxonomies used in this EarthCube CA. Finally, Volume four describes an example of how this conceptual design architecture was used to develop a Polar cyberinfrastructure portal (The design documents are available for editing on our wiki website - <a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/">http://dasher.cloud.gmu.edu/wiki/</a>).</p>
+<img style="height:450px" src="img/f2.png" alt="">		
+<p>Figure 2. A final design of four volumes</p><p><strong>Next Steps:</strong> The report could be used as a conceptual framework for building EarthCube and other geoscience cyberinfrastructure. The design can be adopted as a comprehensive guide for developing a geoscience cyberinfrastructure for multiple stakeholders in the EarthCube community and as a source for priorities to identify topics of interest and priorities in the geosciences.</p>
+			</section>
+			<!--volumes-->
+			<section id="volumes">
+				<div class="page-header">
+					<h1>Four Volumes of DAsHER Conceptual Design</h1>
+				</div>
+				<p>The DAsHER design is a four-volume report with different views of the EarthCube conceptual architecture from multiple perspectives. </p>
+				<p>Volume I is an overview of EarthCube and architecture requirements for the initial development. It summarizes the functionalities of the EarthCube Enterprise as a geoscience research engine, a geoscience resource management platform, a geoscience computer service provider, and an interoperability platform for cross-domain studies. The key components of this envisioned EarthCube Enterprise include data sharing, data curation, communication and collaboration infrastructure, and governance. The design principles of this EarthCube Enterprise include interoperability, long-term sustainability, leveraging existing cyberinfrastructure assets, maximizing linkage, and system of systems. Volume I also elaborates the Enterprise Architecture models referenced (i.e., Zachman, Gartner, TOGAF, FEAF, and DoDAF), and DAsHER's strategy on combining the strength of FEAF and DoDAF as well as referencing elements from other relevant architectures.</p>
+                <p>Volume II is the presentation of the architectural design components and viewpoints, including Capability Viewpoints (CV), Data and Information Viewpoints (DIV), Operational Viewpoints (OV), Project Viewpoints (PV), Service Viewpoints (SvcV), and Standard Viewpoints (StdV). </p>	
+				<ul>
+					<li>In CV, capability requirements are analyzed based on the EarthCube group roadmaps and workshop reports. In a higher level, the capabilities are divided into three categories: end-user capabilities, enabling capabilities and resource capabilities. According to the differences in practical operation, EarthCube capabilities are further divided into multiple sub-capabilities which have unique process in the operation (Capabilities to Operational Activities Mapping). Moreover, service is a mechanism/performer to implement or enable a set of one or more capabilities. Therefore, the relationship among capabilities and the corresponding servicers are also described (Capability to Services Mapping). </li>
+					<li>In DIV, the current challenges in Earth science studies related to data and information are described and categorized into several levels according to their concerning points: the data source level, data processing level, and system level, each corresponding to the problems in areas of data capturing, data handling, and structures of data accessing and management. In order to address these above challenges, the requirements and tasks of the envisioned EarthCube Enterprise are summarized, including facilitating the development and integration of different tools, repositories and databases. As a system of system, EarthCube will not only serve as a repository or fixed set of standards, but will also allow each community to decide how data is exposed, and provide the inventory of different types of resources, and benefit from different supporting roles of EarthCube. In addition, current efforts/projects are described to support the data and information capabilities.</li>
+					<li>In OV, a series of operational activities are presented, including data archiving, resource discovery, resource access, data analysis, publishing, provenance, model development, model assessment, model coupling, quality control, security control, governance, communication, and education. Operational processes are illustrated in workflow graphics, and rules and requirements for these operational activities are specified. Different supporting roles and their responsibilities are considered individually to enable the interconnected but clearly defined workflow (Figure 3).<img style="height:450px" src="img/f3.png" alt="">		
+<p>Figure 3. High-level operational concept</p></li>
+					<li>PV describe how EarthCube funded projects deliver capabilities and the organizations contributing to them and the dependencies between them. Two viewpoints are included in this session, project portfolio relationships and project to capability and service mapping. These sections can be used to answer questions such as: 1) what capabilities are delivered as part of this project, 2) are there other projects that either affect or are affected by this project, 3) what are the interdependencies and relationships between projects, and others?.</li>
+					<li>SvcV describes the envisioned EarthCube services and their interconnections providing or supporting EarthCube functions. In consistency with capability classifications, services are grouped into three classes: end-user capability, enabling technologies, and cross cutting. End-user capability group includes services that can benefit end-users in their research or development, including data discovery, access, modeling services, and others. Enabling technology group includes services that can facilitate the utilization of computation, semantics, brokering and other techniques. Enabling technology services not only support end-user services but also benefit the operation of the EarthCube system. Cross-cutting group includes services that provides the constraints to other service, such as quality related services, and provenance related services, or provide overall control of the operation, such as security, communication, and governance services. Several services can be grouped into both end-user capability group or enabling technology group, such as workflow, visualization, and processing services.</li>
+					<li>StdV is the set of rules governing the arrangement, interaction, and interdependence of parts or elements of the Architectural Description. The purpose of these rules is to ensure that a system satisfies a specified set of operational requirements. This standard profile collects the various system standards rules that implement and may sometimes constrain the choices that can be made in the design and implementation of architecture</li>
+				</ul>
+				<p>Volume III is the dictionary that presents the taxonomies used in this EarthCube CA. It defines 63 terms that are used in DAsHER conceptual design, and have specific meanings which might be different from the other usage within the community. Besides the definition, this integrated dictionary provides examples in DAsHER of how these terms are used specifically, providing a context for readers to have a better understanding of the definition of the terms. The definitions of terms are determined arbitrarily. Multiple sources are referred, including DODAF, TOGAF, Webster's, Zachman, EC glossary, and CINERGI vocabulary. The dictionary graph illustrates the inter-relationship between terms, and is drawn according to the structure of entity described in Volume I, and the capability graph illustrated in Volume II. </p>
+				<p>Finally, Volume IV describes an example of how this conceptual design architecture can be used to develop a Polar cyberinfrastructure portal to achieve data discovery and access capabilities. The design and development process of the Polar CI is described. The requirements of a polar CI is drawn from the capabilities and services from Volume II. According to the requirements, a set of capabilities are developed, including resource discovery, data archiving and publishing, data analysis, quality, and semantics. These capabilities are achieved by the corresponding components: Search broker and Data harvesting middleware, Data warehouse, Visualization tool, QoS (Quality of Service) engine, and Semantic engine. These components can further provide the following services: Distributed search service, Visualization service, Catalog service, Data Discovery Service, Publishing Service, Ontology Service, Quality Assessment/Validation service, and Knowledge Reasoning service. This use case serves as an approach to utilize and evaluate the conceptual design. </p>
+			</section>
+			<!--wiki-->
+			<section id="wiki">
+				<div class="page-header">
+					<h1>DAsHER Wiki</h1>
+				</div>
+				<font><strong>For details and helping improve the design</strong>, please check relevant sections from the DAsHER Wiki:</font>
+				<ul>
+					<li>
+						<a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/EarthCube_Overview">Volume I</a>
+						<ol>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/EarthCube_Enterprise_Design_Principles">EarthCube Enterprise Design Principles</a></li>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/An_EarthCube_Enterprise_Architecture_Design_Strategy">EarthCube Enterprise Architecture Design Strategy</a></li>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/EarthCube_Enterprise_Architecture_Context">EarthCube Enterprise Architecture Context</a></li>
+						</ol>
+					</li>
+					<li>
+						<a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/Introduction">Volume II</a>
+						<ol>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/Capability_Viewpoints">Capability Viewpoints (CV)</a></li>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/Data_and_Information_Viewpoints">Data and Information Viewpoints (DIV)</a></li>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/Operational_Activity_Viewpoints">Operational Viewpoints (OV)</a></li>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/Project_Viewpoints">Project Viewpoints (PV)</a></li>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/Services_Viewpoints">Service Viewpoints (SvcV)</a></li>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/Standards_Viewpoints_(StdV-1)">Standard Viewpoints (StdV)</a></li>
+						</ol>
+					</li>
+					<li>
+						<a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/General_description">Volume III</a>
+						<ol>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/DAsHER_Terms_and_Aliases">DAsHER Terms and Aliases</a></li>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/Mapping_to_DAsHER_Models">Mapping to DAsHER Models</a></li>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/Dictionary_graph">Dictionary graph</a></li>
+						</ol>
+					</li>
+					<li>
+						<a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/General_introduction_of_Polar_CI">Volume IV</a>
+						<ol>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/Polar_CI_Development_Process">Polar CI Development Process</a></li>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/Capabilities_and_Services">Polar CI Capabilities and Services</a></li>
+							<li><a target="blank_" href="http://dasher.cloud.gmu.edu/wiki/index.php/Missing_components">Comparing with other Polar CI portals</a></li>
+						</ol>
+					</li>
+				</ul>
+			</section>
+			<!--team-->
+			<section id="team">
+				<div class="page-header">
+					<h1>Development Team</h1>
+				</div>
+				<ul>
+					<li>
+						PI: Chaowei Yang
+					</li>
+					<li>
+						Co-Is: Erin Robinson, Manzhu Yu, Carol Meyer, Chen Xu
+					</li>
+<li>Team members: Min Sun, Zhenlong Li, Mengchao Xu, Kai Liu, Yunfeng Jiang, Han Qin & Yongyao Jiang</li>
+				</ul>
+			</section>
+			<!--team-->
+			<section id="attendees">
+				<div class="page-header">
+					<h1>Workshop attendees</h1>
+				</div>
+				<ul>
+					<li>
+						Workshop I: 2014 ESIP summer meeting, Frisco, CO
+						<ol>
+						<li>Erin Robinson, Foundation for Earth Science</li>
+						<li>Eric Kihn, NOAA/NGDC</li>
+						<li>Douglas Fils, Consortium for Ocean Leadership</li>
+						<li>Glenn Rutledge, National Climatic Data Center</li>
+						<li>Min Sun, George Mason University</li>
+						<li>Brian Tisdale, Booz Allen Hamilton</li>
+						<li>Ismael smiley Calderon, Chapman University</li>
+						<li>Chaowei Yang, GMU/CISC</li>
+						<li>S Doman Bennett, USGS EROS</li>
+						<li>Melinda Marquis, NOAA</li>
+						<li>Antonia Rosati, National Snow and Ice Data Center</li>
+						<li>Emily Law, JPL</li>
+						<li>Matthew Austin, NOAA/NESDIS</li>
+						<li>M. Lee Allison, Arizona Geological Survey</li>
+						<li>Stephen Richard, Arizona Geological Survey</li>
+						<li>Christy Caudill Daugherty, Arizona Geological Survey</li>
+						<li>Anna Katz, Arizona Geological Survey</li>
+						<li>Aubrey Beach, Booz Allen Hamilton</li>
+						<li>Vivian Hutchison, US Geological Survey</li>
+						<li>Sky Bristol, US Geological Survey</li>
+						<li>Danielle Harper, NSIDC</li>
+						<li>Matthew Ferritto, RPI</li>
+						<li>Heather McCullough, NOAA National Geophysical Data Center</li>
+						<li>Daniel Oostra, MY NASA DATA/NASA</li>
+						<li>Zhenlong Li, George Mason University</li>
+						<li>Janet Fredericks, WHOI</li>
+						<li>David Meyer, US Geological Survey/EROS</li>
+						<li>Ruth Duerr, NSIDC</li>
+						<li>James Conners, UCSD</li>
+						<li>Brian Mapes, RSMAS University of Miami</li>
+						<li>Robert Arko, Lamont-Doherty Earth Observatory</li>
+						<li>Nancy Wiegand, UW-Madison</li>
+						</ol>
+					</li><br/>
+					<li>
+						Workshop II: 2015 ESIP summer meeting, Monterey Bay, CA
+						<ol>
+						<li>Evan Burgess, University of Utah</li>
+						<li>Ethan Davis, UCAR / Unidata</li>
+						<li>Douglas Fils, Consortium for Ocean Leadership</li>
+						<li>Thomas Huang, NASA/JPL</li>
+						<li>Chris Jenkins, University of Colorado Boulder</li>
+						<li>Emily Law, NASA/JPL</li>
+						<li>Chaowei Yang, GMU/CISC</li>
+						<li>Manzhu Yu, GMU/CISC</li>
+						<li>David LeBauer, University of Illinois at Urbana-Champaign</li>
+						<li>Wenwen Li, Arizona State University</li>
+						<li>Chunwei Liu, National Space Science Center, Chinese Academy of Sciences</li>
+						<li>Yan Liu, University of Illinois at Urbana-Champaign</li>
+						<li>Zhong Liu, NASA/George Mason University</li>
+						<li>Stephen Richard, Arizona Geological Survey</li>
+						<li>Brandon Whitehead, University of Auckland</li>
+						<li>Jianting Zhang, The City College of New York</li>
+						</ol>
+					</li>
+				</ul>
+			</section>
+			<!--others-->
+			<section id="others">
+				<div class="page-header">
+					<h1>Others</h1>
+				</div>
+				<ul>
+					<li>
+						Presentations Made: AGU, AAG, ESIP, etc. 
+					</li>
+				</ul>
+			</section>
+		  </div>
+    <!-- Footer -->
+	<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                            <hr><img src="http://dasher.cloud.gmu.edu/img/logo.png" alt="" class="col-lg-12 col-md-12">
+                            </a>
+                        </li>
+                    </ul>
+					<p class="copyright text-muted">This project is sponsored by NSF EarthCube Program (ICER-1343759), and supported by the ECITE project.</p>
+                    <p class="copyright text-muted">Copyright &copy; 2016 <a href="http://stcenter.net/stc/" target="_blank">NSF Spatiotemporal Innovation Center</a> | 4400 University Dr, Fairfax, VA 22030 | Email: stcloud@gmu.edu</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="http://dasher.cloud.gmu.edu/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="http://dasher.cloud.gmu.edu/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="http://dasher.cloud.gmu.edu/js/clean-blog.min.js"></script>
+	<script src="js/ini.js"></script>
+
+</body>
+
+</html>
