@@ -22,17 +22,17 @@ $message = $_POST['message'];
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.office365.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'stcloud@gmu.edu';                 // SMTP username
-$mail->Password = 'cisc255B';                           // SMTP password
+$mail->Username = '';                 // SMTP username
+$mail->Password = '';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('stcloud@gmu.edu', 'noreply');
+$mail->setFrom('', 'noreply');
 //$mail->addAddress('hqin1021@live.com', 'Han Qin');     // Add a recipient
 $mail->addAddress($email_address);               // Name is optional
 //$mail->addReplyTo('hqin0405@gmail.com', 'Information');
-$mail->addCC('ecite@earthcube.org');
-$mail->addBCC('stcloud@gmu.edu');
+$mail->addCC('');
+$mail->addBCC('');
 
 //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
